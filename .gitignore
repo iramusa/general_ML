@@ -12,6 +12,9 @@
 */.pydevproject
 */.idea
 
+# IPython notebook related#
+**/.ipynb_checkpoints/**
+
 # Build related #
 **/CMakeFiles
 **/CMakeCache.txt
@@ -40,6 +43,10 @@ ROS_NOBUILD
 *.so
 *.cfgc
 *.pyc
+
+# Data #
+*.csv
+*.xls
 
 # Packages #
 #   it's better to unpack these files and commit the raw source
